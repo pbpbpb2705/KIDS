@@ -1,0 +1,36 @@
+.navbar-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.navbar-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.navbar-item {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-icon {
+    font-size: 30px;
+    color: aqua;
+}
+
+.navbar-category {
+    font-size: 20px;
+    color: black;
+    transition: color 1s;
+    padding-left: 20px;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.navbar-category:hover {
+    color: blue;
+}

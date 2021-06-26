@@ -1,11 +1,11 @@
 import React from 'react'
 
-function PastPage() {
+function SearchPage() {
     return (
         <div>
-            PastPage
+            
         </div>
     )
 }
 
-export default PastPage;
+export default SearchPage

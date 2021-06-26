@@ -1,15 +1,16 @@
 .navbar-container {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .navbar-tab {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 100%
+    justify-content: space-between;
+    width: 33%;
 }
 
 .navbar-item {
@@ -20,17 +21,23 @@
 .navbar-icon {
     font-size: 30px;
     color: aqua;
+    width: 33%;
+    padding-left: 40px;
+    display: flex;
 }
 
 .navbar-category {
     font-size: 20px;
     color: black;
     transition: color 1s;
-    padding-left: 20px;
     vertical-align: middle;
-    padding-top: 20px;
 }
 
 .navbar-category:hover {
     color: blue;
+}
+
+.navbar-searchicon {
+    width: 33%;
+    text-align: center;
 }

@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import Navbar from './components/navbar/Navbar';
 import Footer from "./components/footer/Footer";
 import HomePage from "./pages/HomePage";
-import PastPage from "./pages/PastPage";
+import TimelinePage from "./pages/TimelinePage";
 import UpcomingPage from "./pages/UpcomingPage";
 import ApplyPage from "./pages/ApplyPage";
 import './App.css';
@@ -16,7 +16,7 @@ function App() {
       <Header/>
       <Switch>
         <Route path="/" exact component={HomePage}/>
-        <Route path="/past" exact component={PastPage}/>
+        <Route path="/timeline" exact component={TimelinePage}/>
         <Route path="/upcoming" exact component={UpcomingPage}/>
         <Route path="/apply" exact component={ApplyPage}/>
       </Switch>

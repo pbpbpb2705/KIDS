@@ -4,10 +4,10 @@ import "./Navbar.css";
 function Navbar() {
     return (
       <div className="navbar-container">
-        <Link to="/" className="navbar-item navbar-logo icon">
+        <Link to="/" className="navbar-item navbar-logo navbar-icon">
           Kids
         </Link>
-        <nav className="navbar-tab">
+        <nav className="navbar-position navbar-tab">
           <Link to="/past" className="navbar-item navbar-category">
             Past events
           </Link>
@@ -17,7 +17,11 @@ function Navbar() {
           <Link to="/apply" className="navbar-item navbar-category">
             Apply now!
           </Link>
+          <Link to="/apply" className="navbar-item navbar-category">
+            Apply now!
+          </Link>
         </nav>
+        <div className="navbar-position navbar-searchicon">Search</div>
       </div>
     );
 }

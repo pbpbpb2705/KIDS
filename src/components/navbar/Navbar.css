@@ -37,7 +37,14 @@
     color: blue;
 }
 
-.navbar-searchicon {
+.navbar-search-item {
     width: 33%;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-searchform {
+    width: 50%;
+    height: 70%;
 }

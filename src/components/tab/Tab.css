@@ -1,0 +1,25 @@
+.tab-container {
+    margin: 0 auto;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.tab-header {
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.tab-content {
+    font-size: 20px;
+    color: black;
+    background-color: grey;
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}

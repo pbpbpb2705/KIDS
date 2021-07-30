@@ -12,7 +12,6 @@ function SearchPage() {
         { title: 'Project 4', content: "Fourth content"},
         { title: 'Project 5', content: "Fifth content"}
     ]
-    const [resultCount, setResultCount] = useState(0);
     const [resultList, setResultList] = useState([""]);
     const [message, setMessage] = useState("");
     function normalizeVn(item) {
@@ -28,10 +27,9 @@ function SearchPage() {
                 tmpList.push(item);
             }
         }
-        setResultCount(tmp);
         setResultList(tmpList.map((item) => <Tab title={item.title} content={item.content}/>));
-        if (resultCount<2) setMessage(resultCount + " result found");
-        else setMessage(resultCount + " results found");
+        if (tmp<2) setMessage(tmp + " result found");
+        else setMessage(tmp + " results found");
     },[location])
     return (
       <div>

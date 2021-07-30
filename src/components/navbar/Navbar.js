@@ -23,14 +23,11 @@ function Navbar() {
           <Link to="/past" className="navbar-item navbar-category">
             Past events
           </Link>
-          <Link to="/upcoming" className="navbar-item navbar-category">
-            Upcoming events
+          <Link to="/about" className="navbar-item navbar-category">
+            About
           </Link>
-          <Link to="/apply" className="navbar-item navbar-category">
-            Apply now!
-          </Link>
-          <Link to="/apply" className="navbar-item navbar-category">
-            Apply now!
+          <Link to="/contact" className="navbar-item navbar-category">
+            Contact
           </Link>
         </nav>
         <div className="navbar-position navbar-search-item">

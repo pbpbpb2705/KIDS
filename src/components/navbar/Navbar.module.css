@@ -68,10 +68,8 @@ header ul{
     -ms-flex: 1;
     flex: 1;
     border: none;
-    font-size: 1.1rem;
+
     letter-spacing: .07rem;
-    line-height: 2.4rem;
-    height: 2.4rem;
-    width: 10rem;
+
     padding: 0 0 0 1rem;
 }

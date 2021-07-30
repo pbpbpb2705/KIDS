@@ -1,10 +1,13 @@
 import React from 'react'
 import "./HomePage.css"
-import Header from "../components/header/Header"
+import Header from "../components/headerC/Header"
+import HomeHeader from '../components/header/HomeHeader';
+
+
 function HomePage() {
     return (
-      <div class="homepage-container">
-        <Header />
+      <div>
+        <HomeHeader/>
       </div>
     );
 }

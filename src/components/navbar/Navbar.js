@@ -5,21 +5,18 @@ import {useHistory} from 'react-router-dom'
 function Navbar() {
   const history = useHistory();
 
-    function searchResult(event) {
-      if (event.key === 'Enter'){
-          const item = document.getElementById("searchbar");
-          if (item.value != '') {
-            history.push({
-              pathname: "/search",
-              query: "",
-              state: {
-                detail: item.value,
-              },
-            });
-            console.log(item.value);
-          }
-          item.value='';
-      }
+  function handleSearch(event){
+    const item = document.getElementById("searchbar");
+    if (item.value !== "") {
+      history.push({
+        pathname: "/search",
+        query: "",
+        state: {
+          detail: item.value,
+        },
+      });
+      //console.log(item.value);
+    }
   }
 
   return (
@@ -49,9 +46,9 @@ function Navbar() {
               name="q"
               id="searchbar"
               placeholder="Search"
-              onKeyPress={searchResult}
+              required
               />
-          <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748" alt = 'search icon'/>
+          <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748" alt = 'search icon' onClick={handleSearch}/>
       </form>
 
     </header>

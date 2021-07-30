@@ -16,13 +16,13 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/past" exact component={PastEventPage} />
         <Route path="/about" exact component={AboutPage} />
         <Route path="/contact" exact component={ContactPage} />
-        <Route path="/search" component={SearchPage} />
+        <Route exact path="/search" component={SearchPage} />
         <Route path="2014-2015" component={Project1415} />
         <Route path="2016-2017" component={Project1617} />
         <Route path="2018-2019" component={Project1819} />

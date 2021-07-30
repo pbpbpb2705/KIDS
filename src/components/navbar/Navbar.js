@@ -5,15 +5,21 @@ import {useHistory} from 'react-router-dom'
 function Navbar() {
   const history = useHistory();
 
-  function handleClick (){
-    const item = document.getElementById('searchbar')
-    history.push({
-      pathname: '/search',
-      query: '',
-      state: {
-        detail: item.value
+    function searchResult(event) {
+      if (event.key === 'Enter'){
+          const item = document.getElementById("searchbar");
+          if (item.value != '') {
+            history.push({
+              pathname: "/search",
+              query: "",
+              state: {
+                detail: item.value,
+              },
+            });
+            console.log(item.value);
+          }
+          item.value='';
       }
-    });
   }
 
   return (

@@ -18,37 +18,51 @@ function Navbar() {
 
   return (
     <header>
-      <div className = {classes.logo}>
-          <Link to = '/'> KIDS Vietnam </Link>  
-      </div>
+            <div className = {classes.logo}>
+                <Link to = '/'> KIDS Vietnam </Link>  
+            </div>
 
-      <nav>
-          <ul>
-              <li className = {classes.button}> 
-                  <Link to = '/about'> About </Link>
-              </li>
+            <nav>
+                <ul className = {classes.mainNav}>
+                    <Link to ='/about'>
+                        <button> About </button>
+                    </Link>
 
-              <li className = {classes.button}>
-                  <Link to = '/pastprojects'> Past Projects </Link>
-              </li>
+                    <div className = {classes.dropdown}>
+                        <Link to ='/pastprojects'>
+                            <button className = {classes.dropbtn}> Past Projects </button>
+                        </Link>
 
-              <li className = {classes.button}>
-                  <Link to = '/contact'> Contact </Link>
-              </li>
-          </ul>
-      </nav>
+                        <div className= {classes.dropcontent}>
+                            <ul>
+                                <li><Link to = '/pastprojects/2021'/> 2020 - 2021 </li>
+                                <li><Link to = '/pastprojects/1819'/> 2018 - 2019</li>
+                                <li><Link to = '/pastprojects/1617'/> 2016 - 2017 </li>
+                                <li><Link to = '/pastprojects/1415'/> 2014 - 2015 </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
 
-      <form className = {classes.searchform}>
-          <input type="search"
-              name="q"
-              id="searchbar"
-              value=""
-              placeholder="Search"
-              required/>
-          <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748" alt = 'search icon'/>
-      </form>
+                    <Link to ='/contact'>
+                        <button> Contact </button>
+                    </Link>
 
-    </header>
+                </ul>
+            </nav>
+
+            <form className = {classes.searchform}>
+                <input type="search"
+                    name="q"
+                    id="searchbar"
+                    value=""
+                    placeholder="Search"
+                    required/>
+                <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748" alt = 'search icon'/>
+            </form>
+
+        </header>
   );
 }
 

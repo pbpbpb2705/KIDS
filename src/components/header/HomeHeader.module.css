@@ -4,5 +4,15 @@ img{
 
 .container{
     width: 100%;
-    
+    display: flex;
+}
+
+.textbox{
+    position: absolute;
+    align-self: center;
+    width: 40%;
+    margin: 4.5rem;
+    padding: 0.7rem;
+    color: #FFFFFF;
+    background: rgb(168,141,136, 0.3);
 }

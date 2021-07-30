@@ -6,11 +6,11 @@ import "./SearchPage.css";
 function SearchPage() {
     const location = useLocation();
     const listItem = [
-        { title: 'First', content: "First content"},
-        { title: 'Second', content: "Second content"},
-        { title: 'Third', content: "Third content"},
-        { title: 'Fourth', content: "Fourth content"},
-        { title: 'Fifth', content: "Fifth content"}
+        { title: 'Project 1', content: "First content"},
+        { title: 'Project 2', content: "Second content"},
+        { title: 'Project 3', content: "Third content"},
+        { title: 'Project 4', content: "Fourth content"},
+        { title: 'Project 5', content: "Fifth content"}
     ]
     const [resultCount, setResultCount] = useState(0);
     const [resultList, setResultList] = useState([""]);

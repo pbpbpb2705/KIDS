@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import "./Navbar.css";
+import classes from './Navbar.module.css'
 import {useHistory} from 'react-router-dom'
 function Navbar() {
   const history = useHistory();
+
   function handleClick (){
     const item = document.getElementById('searchbar')
     history.push({
@@ -14,32 +15,41 @@ function Navbar() {
       }
     });
   }
-    return (
-      <div className="navbar-container">
-        <Link to="/" className="navbar-item navbar-logo navbar-icon">
-          Kids
-        </Link>
-        <nav className="navbar-position navbar-tab">
-          <Link to="/past" className="navbar-item navbar-category">
-            Past events
-          </Link>
-          <Link to="/about" className="navbar-item navbar-category">
-            About
-          </Link>
-          <Link to="/contact" className="navbar-item navbar-category">
-            Contact
-          </Link>
-        </nav>
-        <div className="navbar-position navbar-search-item">
-          <input
-            id="searchbar"
-            placeholder="Search"
-            className="navbar-searchform"
-          />
-          <button onClick={handleClick}>Search</button>
-        </div>
+
+  return (
+    <header>
+      <div className = {classes.logo}>
+          <Link to = '/'> KIDS Vietnam </Link>  
       </div>
-    );
+
+      <nav>
+          <ul>
+              <li className = {classes.button}> 
+                  <Link to = '/about'> About </Link>
+              </li>
+
+              <li className = {classes.button}>
+                  <Link to = '/pastprojects'> Past Projects </Link>
+              </li>
+
+              <li className = {classes.button}>
+                  <Link to = '/contact'> Contact </Link>
+              </li>
+          </ul>
+      </nav>
+
+      <form className = {classes.searchform}>
+          <input type="search"
+              name="q"
+              id="searchbar"
+              value=""
+              placeholder="Search"
+              required/>
+          <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748" alt = 'search icon'/>
+      </form>
+
+    </header>
+  );
 }
 
 export default Navbar;

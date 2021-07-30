@@ -1,18 +1,27 @@
-img{
+img {
     width: 100%;
 }
 
-.container{
+.container {
     width: 100%;
     display: flex;
 }
 
-.textbox{
+.textbox {
     position: absolute;
     align-self: center;
     width: 40%;
     margin: 4.5rem;
     padding: 0.7rem;
     color: #FFFFFF;
-    background: rgb(168,141,136, 0.3);
+    background: rgb(168, 141, 136, 0.3);
+}
+
+@media screen and (max-width:1080px) {
+    .textbox p {
+        font-size: 10px;
+    }
+    .textbox h1 {
+        font-size: 12px;
+    }
 }

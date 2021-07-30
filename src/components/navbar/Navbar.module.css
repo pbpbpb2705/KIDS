@@ -1,7 +1,8 @@
 header{
-    position:fixed;width:100%;z-index:2;
+    position:fixed;z-index:2;
     top:0;
     height: 4.5rem;
+    width:100%;
 
     display: flex;
     align-items: center;
@@ -9,39 +10,77 @@ header{
 
     color: #FFFFFF;
     background-color: #0F7F3A;
-    
+
 }
 
 .logo{
     font-weight: bolder;  
 }
 
-header ul{
+.mainNav{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px;
-    font-weight: 600;
-    letter-spacing: 0.2px;
     
+    letter-spacing: 0.2px;
 }
 
-.button{
+header button{
     border:none;
-    display:inline-block;
     padding:8px 16px;
     vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
+
+    cursor: pointer;
     color:inherit;
     background-color:inherit;
     text-align:center;
-    cursor:pointer;
-    white-space:nowrap;
-    height:inherit;
+    
+   
 }
 
+button:hover{
+    color:#000!important;
+    background-color:#ccc!important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+.dropcontent {
+    display: none;
+    
+    position: absolute;
+    width: 100%;
+    background-color: #f1f1f1;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropcontent ul{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 0px;
+
+}
+
+.dropcontent li{
+    float: none;
+    color: black;
+    font-size: 14px;
+    margin: 0.3rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropcontent {display: block;}
 
 .searchform{
     align-items: center;
@@ -56,11 +95,7 @@ header ul{
     background-color: #FFFFFF;
 
     border-radius: 10px;
-    
-
 }
-
-
 
 .searchform input[type="search"] {
     background-color: transparent;
@@ -70,6 +105,7 @@ header ul{
     border: none;
 
     letter-spacing: .07rem;
-
+    color: #39856D;
+    
     padding: 0 0 0 1rem;
 }

@@ -15,7 +15,6 @@ function Navbar() {
           detail: item.value,
         },
       });
-      //console.log(item.value);
     }
   }
 

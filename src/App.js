@@ -6,6 +6,7 @@ import PastEventPage from "./pages/PastEventPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import SearchPage from "./pages/SearchPage";
+import UpcomingPage from "./pages/UpcomingPage";
 import Project1415 from "./pages/yearspage/Project1415"
 import Project1617 from "./pages/yearspage/Project1617"
 import Project1819 from "./pages/yearspage/Project1819";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/past" exact component={PastEventPage} />
         <Route path="/about" exact component={AboutPage} />
         <Route path="/contact" exact component={ContactPage} />
+        <Route path="/upcoming" exact component={UpcomingPage} />
         <Route exact path="/search" component={SearchPage} />
         <Route path="/2014-2015" component={Project1415} />
         <Route path="/2016-2017" component={Project1617} />

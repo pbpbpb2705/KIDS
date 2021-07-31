@@ -1,4 +1,4 @@
-.tab-container {
+.container {
     margin: 0 auto;
     padding: 30px 15px;
     display: flex;
@@ -6,7 +6,7 @@
     width: 75%;
 }
 
-.tab-header {
+.header {
     font-size: 50px;
     color: white;
     background-color: black;
@@ -15,11 +15,20 @@
     text-align: center;
 }
 
-.tab-content {
+.content {
     font-size: 20px;
     color: black;
     background-color: grey;
     height: 60%;
     width: 100%;
     text-align: center;
+}
+
+.linkto {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    height: 30%;
+    width: 100%;
 }

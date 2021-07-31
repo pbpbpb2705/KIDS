@@ -19,6 +19,7 @@ function Navbar() {
   }
 
   return (
+    <div>
     <header>
       <div className = {classes.logo}>
                 <Link to = '/'> KIDS Vietnam </Link>  
@@ -37,15 +38,13 @@ function Navbar() {
 
                         <div className= {classes.dropcontent}>
                             <ul>
-                                <li><Link to = '/pastprojects/2021'/> 2020 - 2021 </li>
-                                <li><Link to = '/pastprojects/1819'/> 2018 - 2019</li>
-                                <li><Link to = '/pastprojects/1617'/> 2016 - 2017 </li>
-                                <li><Link to = '/pastprojects/1415'/> 2014 - 2015 </li>
+                                <li><Link to = '/2020-2021'> 2020 - 2021 </Link></li>
+                                <li><Link to = '/2018-2019'> 2018 - 2019 </Link></li>
+                                <li><Link to = '/2016-2017'> 2016 - 2017 </Link></li>
+                                <li><Link to = '/2014-2015'> 2014 - 2015 </Link></li>
                             </ul>
-                            
                         </div>
                     </div>
-                    
 
                     <Link to ='/contact'>
                         <button> Contact </button>
@@ -63,8 +62,9 @@ function Navbar() {
               />
           <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748" alt = 'search icon' onClick={handleSearch}/>
       </form>
-
     </header>
+    <div className = {classes.space}/>
+    </div>
   );
 }
 

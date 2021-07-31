@@ -1,9 +1,19 @@
 import React from 'react'
-import "./Project1415.css"
+import Tab from "../../components/tab/Tab";
+import classes from "./Project1415.module.css"
 function Project1415() {
+    const itemList = [
+      { title: "Testing 1", content: "Test", linkto: "/testing1" },
+      { title: "Testing 2", content: "Test", linkto: "/testing2" },
+      { title: "Testing 3", content: "Test", linkto: "/testing3" },
+      { title: "Testing 4", content: "Test", linkto: "/testing4" }
+    ];
+    const tabList = itemList.map((item) => (
+      <Tab title={item.title} content={item.content} linkto={item.linkto} />
+    ));
     return (
         <div>
-            2014-2015
+            <div className={classes.container}>{tabList}</div>
         </div>
     )
 }

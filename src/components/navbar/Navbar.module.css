@@ -108,6 +108,10 @@ header nav ul {
     width: 100%;
 }
 
+.dropdown_responsive:hover {
+    visibility: visible;
+}
+
 .dropdown_responsive ul {
     list-style-type: none;
     padding-left: 0px;
@@ -116,8 +120,6 @@ header nav ul {
 .icon {
     margin: auto 0;
     width: 0px;
-    height: 100%;
-    color: black;
 }
 
 .logo {
@@ -179,17 +181,18 @@ header nav ul {
         justify-content: center;
     }
     .dropdown_container {
-        width: 60vh;
+        width: 140px;
     }
     .icon {
         margin: auto auto;
         width: 64px;
-        height: 4.5rem;
+        visibility: visible;
     }
     .icon:hover+.dropdown_responsive {
         visibility: visible;
     }
     .menu {
         font-size: 10px;
+        justify-content: flex-end;
     }
 }

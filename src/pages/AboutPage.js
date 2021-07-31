@@ -3,7 +3,7 @@ import "./AboutPage.css"
 function AboutPage() {
     return (
         <div>
-            About
+            About us
         </div>
     )
 }

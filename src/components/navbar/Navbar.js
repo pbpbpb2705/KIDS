@@ -21,24 +21,38 @@ function Navbar() {
   return (
     <header>
       <div className = {classes.logo}>
-          <Link to = '/'> KIDS Vietnam </Link>
-      </div>
+                <Link to = '/'> KIDS Vietnam </Link>  
+            </div>
 
-      <nav>
-          <ul>
-              <li className = {classes.button}>
-                  <Link to = '/about'> About </Link>
-              </li>
+            <nav>
+                <ul className = {classes.mainNav}>
+                    <Link to ='/about'>
+                        <button> About </button>
+                    </Link>
 
-              <li className = {classes.button}>
-                  <Link to = '/pastprojects'> Past Projects </Link>
-              </li>
+                    <div className = {classes.dropdown}>
+                        <Link to ='/pastprojects'>
+                            <button className = {classes.dropbtn}> Past Projects </button>
+                        </Link>
 
-              <li className = {classes.button}>
-                  <Link to = '/contact'> Contact </Link>
-              </li>
-          </ul>
-      </nav>
+                        <div className= {classes.dropcontent}>
+                            <ul>
+                                <li><Link to = '/pastprojects/2021'/> 2020 - 2021 </li>
+                                <li><Link to = '/pastprojects/1819'/> 2018 - 2019</li>
+                                <li><Link to = '/pastprojects/1617'/> 2016 - 2017 </li>
+                                <li><Link to = '/pastprojects/1415'/> 2014 - 2015 </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <Link to ='/contact'>
+                        <button> Contact </button>
+                    </Link>
+
+                </ul>
+            </nav>
 
       <form className = {classes.searchform}>
           <input type="search"

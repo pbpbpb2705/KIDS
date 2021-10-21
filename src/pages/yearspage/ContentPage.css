@@ -1,0 +1,186 @@
+h3 {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0 0;
+}
+
+.main-2 li {
+    text-decoration: none;
+    display: block;
+}
+
+main div h2 {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg .imgheader_content h1 {
+    font-size: 60px;
+}
+
+header {
+    display: flex;
+}
+
+header {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+.bgimg {
+    /*background-image: url(image/KIDSVietnamBackground.png);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgimg {
+    margin: 0;
+    padding: 0;
+    height: 637px;
+}
+
+header {
+    background-color: green;
+}
+
+html {
+    margin: 0;
+    padding: 0
+}
+
+header h1 {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+main {
+    block-size: 1800px
+}
+
+main {
+    background-color: black;
+    height: 5000px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main-1 {
+    height: 90%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.imgheader_content {
+    width: 80%;
+    height: 40%;
+}
+
+.content-page {
+    min-height: 110vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 70%;
+    background-color: green;
+    margin: 25px 15px 25px 50px;
+    padding: 10px;
+    border-radius: 0 60px 0 60px;
+    height: 300px;
+    width: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.span {
+    height: 5rem;
+    width: 100%;
+}
+
+.main-2 {
+    width: 15%;
+    height: 40%;
+    margin: 15% 40px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 8px solid;
+    padding: 1rem;
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+
+.black-title {
+    color: black;
+    font-size: 2em;
+}

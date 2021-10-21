@@ -3,3 +3,17 @@
     height: 30vh;
     background: gray;
 }
+
+footer {
+    background-color: green;
+    flex-direction: row;
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.tab {
+    width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

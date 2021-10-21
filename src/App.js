@@ -1,17 +1,19 @@
 import React from 'react';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
-import HomePage from "./pages/HomePage";
-import PastEventPage from "./pages/PastEventPage";
-import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
-import SearchPage from "./pages/SearchPage";
-import UpcomingPage from "./pages/UpcomingPage";
-import Project1415 from "./pages/yearspage/Project1415"
-import Project1617 from "./pages/yearspage/Project1617"
-import Project1819 from "./pages/yearspage/Project1819";
-import Project2021 from "./pages/yearspage/Project2021";
+import HomePage from "./pages/homepage/HomePage";
+import PastEventPage from "./pages/pasteventpage/PastEventPage";
+import AboutPage from "./pages/aboutpage/AboutPage";
+import ContactPage from "./pages/contactpage/ContactPage";
+import SearchPage from "./pages/searchpage/SearchPage";
+import UpcomingPage from "./pages/upcomingpage/UpcomingPage";
+import Project1314 from "./pages/yearspage/Project1314"
+import Project1516 from "./pages/yearspage/Project1516"
+import Project1718 from "./pages/yearspage/Project1718";
+import Project1920 from "./pages/yearspage/Project1920";
+import Project2122 from "./pages/yearspage/Project2122";
 import Testing1 from "./pages/detailpage/Testing1";
+import Footer from "./components/footer/Footer";
 import './App.css';
 
 function App() {
@@ -24,16 +26,18 @@ function App() {
         <Route path="/about" exact component={AboutPage} />
         <Route path="/contact" exact component={ContactPage} />
         <Route path="/upcoming" exact component={UpcomingPage} />
-        <Route exact path="/search" component={SearchPage} />
-        <Route path="/2014-2015" component={Project1415} />
-        <Route path="/2016-2017" component={Project1617} />
-        <Route path="/2018-2019" component={Project1819} />
-        <Route path="/2020-2021" component={Project2021} />
+        <Route path="/search" component={SearchPage} />
+        <Route path="/1314projects" component={Project1314} />
+        <Route path="/1516projects" component={Project1516} />
+        <Route path="/1718projects" component={Project1718} />
+        <Route path="/1920projects" component={Project1920} />
+        <Route path="/2122projects" component={Project2122} />
         <Route path="/testing1" component={Testing1} />
         <Route path="/testing2" component={Testing1} />
         <Route path="/testing3" component={Testing1} />
         <Route path="/testing4" component={Testing1} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

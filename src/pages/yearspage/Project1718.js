@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContentPage.css";
 import {Link} from 'react-router-dom'
+import Card from "../../components/card/Card.js";
 function Project1718() {
   return (
     <div className="content-page">
@@ -8,132 +9,27 @@ function Project1718() {
       <div className="card-container">
         <div class="main-1">
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/15.JPG"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BÌNH ĐỊNH-8/2018</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/14.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">NAM TRÀ MY-7/2018</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1211861132570539&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/13.JPG"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-6/2018</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/12.JPG"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">CẦN THƠ-8/2017</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1211861132570539&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/11.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BÌNH ĐỊNH-8/2017</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/10.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-6/2017</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1211861132570539&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card
+              src="image/15.jpg"
+              name="Bình Định-8/2018"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/14.jpg"
+              name="Nam Trà My-7/2018"
+              href="SAPA82014.html"
+            />
+            <Card src="image/13.jpg" name="SAPA-6/2018" href="SAPA82014.html" />
           </div>
 
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/9.JPG"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">ĐẠI LỘC-1/2017</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card src="image/12.jpg" name="Cần Thơ-8/2017" href="SAPA82014.html" />
+            <Card src="image/11.jpg" name="Bình Định-8/2014" href="SAPA82014.html"/>
+            <Card src="image/10.jpg" name="SAPA-6/2017" href="SAPA82014.html" />
+          </div>
+
+          <div class="container">
+            <Card src="image/9.jpg" name="Đại Lộc-1/2017" href="SAPA82014.html" />
           </div>
         </div>
         <div className="main-2">

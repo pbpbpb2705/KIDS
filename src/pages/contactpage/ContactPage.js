@@ -3,7 +3,7 @@ import "./ContactPage.css"
 import {Link} from "react-router-dom"
 function ContactPage() {
     return (
-      <div>
+      <div className="contact-page">
         <Link to={{ pathname: "https://github.com/pbpbpb2705/KIDS" }} target="_blank">
           Github
         </Link>

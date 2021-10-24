@@ -2,7 +2,7 @@ import React from 'react'
 import "./UpcomingPage.css"
 function UpcomingPage() {
     return (
-        <div>
+        <div className="upcoming-page">
             
         </div>
     )

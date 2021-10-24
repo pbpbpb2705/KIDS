@@ -2,7 +2,7 @@ import React from 'react'
 import "./AboutPage.css"
 function AboutPage() {
     return (
-        <div>
+        <div className="about-page">
             About us
         </div>
     )

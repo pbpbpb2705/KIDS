@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContentPage.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+import Card from "../../components/card/Card.js";
 function Project1516() {
   return (
     <div className="content-page">
@@ -8,57 +9,17 @@ function Project1516() {
       <div class="card-container">
         <div class="main-1">
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/8.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-8/2016</h1>
-                <a
-                  href="SAPA-8-2016.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/7.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">QUẢNG NAM-8/2015</h1>
-                <a
-                  href="QUANG NAM-8-2015.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/6.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BÌNH ĐỊNH-1/2015</h1>
-                <a
-                  href="BINH DINH-1-2015.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card src="image/8.jpg" name="SAPA-8/2016" href="SAPA82014.html" />
+            <Card
+              src="image/7.jpg"
+              name="Quảng Nam-8/2015"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/6.jpg"
+              name="Bình Định-1/2015"
+              href="SAPA82014.html"
+            />
           </div>
         </div>
         <div className="main-2">

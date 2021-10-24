@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContentPage.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+import Card from "../../components/card/Card.js";
 function Project1920() {
   return (
     <div className="content-page">
@@ -8,169 +9,54 @@ function Project1920() {
       <div className="card-container">
         <div class="main-1">
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/24.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">VĨNH LONG-11/2020</h1>
-                <a
-                  href="VINH LONG-11-2020.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/23.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">ĐỒNG NAI-10/2020</h1>
-                <a
-                  href="DONG NAI-10-2020.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/22.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BẾN TRE-9/2020</h1>
-                <a
-                  href="BEN TRE-9-2020.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card
+              src="image/24.jpg"
+              name="Vĩnh Long-11/2020"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/23.jpg"
+              name="Đồng Nai-10/2014"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/22.jpg"
+              name="Bến Tre-9/2020"
+              href="SAPA82014.html"
+            />
           </div>
 
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/21.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">VĨNH LONG-7/2020</h1>
-                <a
-                  href="VINH LONG-7-2020.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/20.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BẾN TRE-3/2020</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/19.JPG"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BẾN TRE-9/2019</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1211861132570539&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card
+              src="image/21.jpg"
+              name="Vĩnh Long-7/2020"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/20.jpg"
+              name="Bến Tre-3/2020"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/19.jpg"
+              name="Bến Tre-9/2019"
+              href="SAPA82014.html"
+            />
           </div>
-
 
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/18.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BÌNH ĐỊNH-8/2019</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/17.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-7/2019</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1211861132570539&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/16.jpg"
-                alt=" Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">VĨNH LONG-7/2019</h1>
-                <a
-                  href="https://www.facebook.com/permalink.php?story_fbid=1213060102450642&id=458275831262410"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card
+              src="image/18.jpg"
+              name="Bình Định-8/2019"
+              href="SAPA82014.html"
+            />
+            <Card src="image/17.jpg" name="SAPA-7/2019" href="SAPA82014.html" />
+            <Card
+              src="image/16.jpg"
+              name="Vĩnh Long-7/2019"
+              href="SAPA82014.html"
+            />
           </div>
-
-
         </div>
         <div className="main-2">
           <h1 className="black-title"> More projects </h1>

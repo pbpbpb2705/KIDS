@@ -12,7 +12,6 @@ import Project1516 from "./pages/yearspage/Project1516"
 import Project1718 from "./pages/yearspage/Project1718";
 import Project1920 from "./pages/yearspage/Project1920";
 import Project2122 from "./pages/yearspage/Project2122";
-import Testing1 from "./pages/detailpage/Testing1";
 import Footer from "./components/footer/Footer";
 import './App.css';
 
@@ -32,10 +31,6 @@ function App() {
         <Route path="/1718projects" component={Project1718} />
         <Route path="/1920projects" component={Project1920} />
         <Route path="/2122projects" component={Project2122} />
-        <Route path="/testing1" component={Testing1} />
-        <Route path="/testing2" component={Testing1} />
-        <Route path="/testing3" component={Testing1} />
-        <Route path="/testing4" component={Testing1} />
       </Switch>
       <Footer />
     </Router>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContentPage.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+import Card from "../../components/card/Card.js";
 function Project1314() {
   return (
     <div className="content-page">
@@ -8,93 +9,13 @@ function Project1314() {
       <div className="card-container">
         <div class="main-1">
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/5.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-8/2014</h1>
-                <a
-                  href="SAPA-8-2014.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/4.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">BÌNH ĐỊNH-8/2014</h1>
-                <a
-                  href="BINH DINH-8-2014.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/3.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">LAI CHÂU-6/2014</h1>
-                <a
-                  href="LAI CHAU-6-2014.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card src="image/5.jpg" name="SAPA-8/2014" href="SAPA82014.html" />
+            <Card src="image/4.jpg" name="BÌNH ĐỊNH-8/2014" href="SAPA82014.html"/>
+            <Card src="image/3.jpg" name="LAI CHÂU-8/2014" href="SAPA82014.html"/>
           </div>
           <div class="container">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/2.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-2/2014</h1>
-                <a
-                  href="SAPA-2-2014.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="image/1.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h1 class="card-title">SAPA-12/2013</h1>
-                <a
-                  href="SAPA-12-2013.html"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
+            <Card src="image/2.jpg" name="SAPA-2/2014" href="SAPA82014.html" />
+            <Card src="image/1.jpg" name="SAPA-12/2013" href="SAPA82014.html" />
           </div>
         </div>
         <div className="main-2">

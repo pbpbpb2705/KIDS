@@ -12,6 +12,7 @@ import Project1516 from "./pages/yearspage/Project1516"
 import Project1718 from "./pages/yearspage/Project1718";
 import Project1920 from "./pages/yearspage/Project1920";
 import Project2122 from "./pages/yearspage/Project2122";
+import NTD_3_2021 from "./pages/detailpage/NTD-3-2021";
 import Footer from "./components/footer/Footer";
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/1718projects" component={Project1718} />
         <Route path="/1920projects" component={Project1920} />
         <Route path="/2122projects" component={Project2122} />
+        <Route path="/ntd-3-2021" component={NTD_3_2021} />
       </Switch>
       <Footer />
     </Router>

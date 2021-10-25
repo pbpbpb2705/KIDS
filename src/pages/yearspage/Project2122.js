@@ -12,7 +12,7 @@ function Project2122() {
               <Card
                 src="image/15.jpg"
                 name="Núi Tượng Đồng-3/2021"
-                href="SAPA82014.html"
+                href="/ntd-3-2021"
               />
             </div>
           </div>

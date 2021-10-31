@@ -1,17 +1,24 @@
 import React from "react";
-import "./Footer.css";
+import classes from "./Footer.module.css";
 
 function Footer() {
   return (
     <footer>
-      <div className="tab" />
-      <div className="tab">
-        <h3> Thông tin </h3> <a href="/about"> About us </a> <br />
-        <a href="/past"> Past events </a> <br />
-        <a href="/contact"> Contact us </a>{" "}
-      </div>{" "}
-      
+      <div className = {classes.container}>
+          <div className = {classes.col1}>
+            <h6>About</h6>
+            <p> KIDS VIETNAM is a platform in which you can help improve children 's lives through basic necessities, health and education.You can do it by: -creating and running your own community projects (e.g.Lifebuoy for Lai Chau project by Hoai Chung) - making donations to(an) existing project(s) - sponsoring a child to help them get access to basic necessities, medical attention and education. </p>
+          </div>
+          <div className = {classes.col2}>
+            <h6>Contact us at</h6>
+            <ul>
+              <li> phone no </li>
+              <li> facebook </li>
+            </ul>
+          </div>
+      </div>
     </footer>
+    
   );
 }
 

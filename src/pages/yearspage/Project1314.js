@@ -10,29 +10,29 @@ function Project1314() {
         <div class="main-1">
           <div class="container">
             <Card
-              src="image/CardImg/5.jpg"
+              src="/5.jpg"
               name="SAPA-8/2014"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/4.jpg"
+              src="/4.jpg"
               name="BÌNH ĐỊNH-8/2014"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/3.jpg"
+              src="/3.jpg"
               name="LAI CHÂU-8/2014"
               href="SAPA82014.html"
             />
           </div>
           <div class="container">
             <Card
-              src="image/CardImg/2.jpg"
+              src="/2.jpg"
               name="SAPA-2/2014"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/1.jpg"
+              src="/1.jpg"
               name="SAPA-12/2013"
               href="SAPA82014.html"
             />

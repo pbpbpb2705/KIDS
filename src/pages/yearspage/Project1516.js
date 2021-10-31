@@ -11,17 +11,17 @@ function Project1516() {
         <div class="main-1">
           <div class="container">
             <Card
-              src="image/CardImg/8.jpg"
+              src="/8.jpg"
               name="SAPA-8/2016"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/7.jpg"
+              src="/7.jpg"
               name="Quảng Nam-8/2015"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/6.jpg"
+              src="/6.jpg"
               name="Bình Định-1/2015"
               href="SAPA82014.html"
             />

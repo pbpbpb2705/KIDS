@@ -11,19 +11,19 @@ function Project1920() {
         <div class="main-1">
           <div class="container">
             <Card
-              src="image/CardImg/24.jpg"
+              src="24.jpg"
               name="Vĩnh Long - 11/2020"
               href="vinhlong-11-2020"
               title="Vĩnh Long - 11/2020"
             />
             <Card
-              src="image/CardImg/23.jpg"
+              src="23.jpg"
               name="Đồng Nai - 10/2020"
               href="dongnai-10-2020"
               title="Đồng Nai - 10/2020"
             />
             <Card
-              src="image/CardImg/22.jpg"
+              src="22.jpg"
               name="Bến Tre - 9/2020"
               href="bentre-9-2020"
               title="Bến Tre - 9/2020"
@@ -31,19 +31,19 @@ function Project1920() {
           </div>
           <div class="container">
             <Card
-              src="image/CardImg/21.jpg"
+              src="/21.jpg"
               name="Vĩnh Long - 7/2020"
               href="vinhlong-7-2020"
               title="Vĩnh Long - 7/2020"
             />
             <Card
-              src="image/CardImg/20.jpg"
+              src="/20.jpg"
               name="Bến Tre - 3/2020"
               href="bentre-3-2020"
               title="Bến Tre - 3/2020"
             />
             <Card
-              src="image/CardImg/19.jpg"
+              src="/19.jpg"
               name="Bến Tre - 9/2019"
               href="bentre-9-2019"
               title="Bến Tre - 9/2019"
@@ -51,19 +51,19 @@ function Project1920() {
           </div>
           <div class="container">
             <Card
-              src="image/CardImg/18.jpg"
+              src="/18.jpg"
               name="Bình Định - 8/2019"
               href="binhdinh-8-2019"
               title="Bình Định - 8/2019"
             />
             <Card
-              src="image/CardImg/17.jpg"
+              src="/17.jpg"
               name="Sapa - 7/2019"
               href="sapa-7-2019"
               title="SAPA - 7/2019"
             />
             <Card
-              src="image/CardImg/16.jpg"
+              src="/16.jpg"
               name="Vĩnh Long - 7/2019"
               href="vinhlong-7-2019"
               title="Vĩnh Long - 7/2019"

@@ -11,7 +11,7 @@ function Project2122() {
         <div class="main-1">
           <div class="container">
             <Card
-              src="image/CardImg/15.jpg"
+              src="25.jpg"
               name="Núi Tượng Đồng - 3/2021"
               href="ntd-3-2021"
               title="Núi Tượng Đổng - 3/2021"

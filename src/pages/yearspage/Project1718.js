@@ -11,41 +11,41 @@ function Project1718() {
         <div class="main-1">
           <div class="container">
             <Card
-              src="image/CardImg/15.jpg"
+              src="/15.jpg"
               name="Bình Định-8/2018"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/14.jpg"
+              src="/14.jpg"
               name="Nam Trà My-7/2018"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/13.jpg"
+              src="/13.jpg"
               name="SAPA-6/2018"
               href="SAPA82014.html"
             />
           </div>
           <div class="container">
             <Card
-              src="image/CardImg/12.jpg"
+              src="/12.jpg"
               name="Cần Thơ-8/2017"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/11.jpg"
+              src="/11.jpg"
               name="Bình Định-8/2014"
               href="SAPA82014.html"
             />
             <Card
-              src="image/CardImg/10.jpg"
+              src="/10.jpg"
               name="SAPA-6/2017"
               href="SAPA82014.html"
             />
           </div>
           <div class="container">
             <Card
-              src="image/CardImg/9.jpg"
+              src="/9.jpg"
               name="Đại Lộc-1/2017"
               href="SAPA82014.html"
             />

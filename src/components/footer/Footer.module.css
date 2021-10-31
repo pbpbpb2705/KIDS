@@ -2,15 +2,15 @@ footer {
     background: gray;
     width: 100%;
     margin-bottom: 0;
-    height: 25vh;
+    height: fit-content;
     
 }
 
 footer h6{
-    
-    font-size:16px;
+    font-size: 1rem;
     text-transform:uppercase;
     margin-top:5px;
+    margin-bottom:10px;
     letter-spacing:2px
 }
 
@@ -21,7 +21,7 @@ footer li, footer p{
 
 .container {
     height: 100%;
-    padding: 0 50px;
+    padding: 0 10%;
     color:#fff;
     display: flex;
     flex-direction: row;
@@ -32,14 +32,16 @@ footer li, footer p{
 
 .col1{
     flex-grow: 2;
-    font-size: 0.8rem;
-    margin: 15px;
+    font-size: 0.9rem;
+    margin: 15px 35px;
+    max-width: 65%;
 }
 
 .col2{
     flex-grow: 1;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 15px;
+    margin: 15px 35px;
 }
 
 .tab {

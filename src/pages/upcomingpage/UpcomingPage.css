@@ -1,3 +1,7 @@
 .upcoming-page {
     min-height: 100vh;
 }
+
+.span {
+    height: 5 rem;
+}

@@ -5,7 +5,15 @@ function Card(props) {
     const History = useHistory()
     function handleClick(e) {
         e.preventDefault();
-        History.push(props.href);
+        let key = '/' + props.href;
+        History.push({
+            pathname: key,
+            state: {
+                id: props.id,
+                title: props.title,
+                name: props.name,
+            }
+        });
     }
     return (
         <div className="card">

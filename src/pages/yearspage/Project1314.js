@@ -9,13 +9,33 @@ function Project1314() {
       <div className="card-container">
         <div class="main-1">
           <div class="container">
-            <Card src="image/5.jpg" name="SAPA-8/2014" href="SAPA82014.html" />
-            <Card src="image/4.jpg" name="BÌNH ĐỊNH-8/2014" href="SAPA82014.html"/>
-            <Card src="image/3.jpg" name="LAI CHÂU-8/2014" href="SAPA82014.html"/>
+            <Card
+              src="image/CardImg/5.jpg"
+              name="SAPA-8/2014"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/CardImg/4.jpg"
+              name="BÌNH ĐỊNH-8/2014"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/CardImg/3.jpg"
+              name="LAI CHÂU-8/2014"
+              href="SAPA82014.html"
+            />
           </div>
           <div class="container">
-            <Card src="image/2.jpg" name="SAPA-2/2014" href="SAPA82014.html" />
-            <Card src="image/1.jpg" name="SAPA-12/2013" href="SAPA82014.html" />
+            <Card
+              src="image/CardImg/2.jpg"
+              name="SAPA-2/2014"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/CardImg/1.jpg"
+              name="SAPA-12/2013"
+              href="SAPA82014.html"
+            />
           </div>
         </div>
         <div className="main-2">

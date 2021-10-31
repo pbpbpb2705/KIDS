@@ -31,7 +31,7 @@ function Navbar() {
         </Link>
 
         <div className={classes.dropdown}>
-          <Link to ='/pastprojects'>
+          <Link to ='/past'>
             <button className = {classes.dropbtn}> Past Projects </button>
           </Link>
 

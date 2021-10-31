@@ -1,0 +1,16 @@
+.span {
+    height: 5 rem;
+}
+
+.pastEventPage-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pastEventPage {
+    min-height: 100vh;
+}

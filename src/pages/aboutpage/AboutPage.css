@@ -1,3 +1,11 @@
 .about-page {
     min-height: 100vh;
 }
+
+.about-page-content {
+    color: aliceblue;
+}
+
+.span {
+    height: 5 rem;
+}

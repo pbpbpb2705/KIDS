@@ -1,7 +1,8 @@
 import React from "react";
 import "./ContentPage.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Card from "../../components/card/Card.js";
+
 function Project1718() {
   return (
     <div className="content-page">
@@ -10,49 +11,67 @@ function Project1718() {
         <div class="main-1">
           <div class="container">
             <Card
-              src="image/15.jpg"
+              src="image/CardImg/15.jpg"
               name="Bình Định-8/2018"
               href="SAPA82014.html"
             />
             <Card
-              src="image/14.jpg"
+              src="image/CardImg/14.jpg"
               name="Nam Trà My-7/2018"
               href="SAPA82014.html"
             />
-            <Card src="image/13.jpg" name="SAPA-6/2018" href="SAPA82014.html" />
+            <Card
+              src="image/CardImg/13.jpg"
+              name="SAPA-6/2018"
+              href="SAPA82014.html"
+            />
           </div>
-
           <div class="container">
-            <Card src="image/12.jpg" name="Cần Thơ-8/2017" href="SAPA82014.html" />
-            <Card src="image/11.jpg" name="Bình Định-8/2014" href="SAPA82014.html"/>
-            <Card src="image/10.jpg" name="SAPA-6/2017" href="SAPA82014.html" />
+            <Card
+              src="image/CardImg/12.jpg"
+              name="Cần Thơ-8/2017"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/CardImg/11.jpg"
+              name="Bình Định-8/2014"
+              href="SAPA82014.html"
+            />
+            <Card
+              src="image/CardImg/10.jpg"
+              name="SAPA-6/2017"
+              href="SAPA82014.html"
+            />
           </div>
-
           <div class="container">
-            <Card src="image/9.jpg" name="Đại Lộc-1/2017" href="SAPA82014.html" />
-          </div>
-        </div>
+            <Card
+              src="image/CardImg/9.jpg"
+              name="Đại Lộc-1/2017"
+              href="SAPA82014.html"
+            />
+          </div>{" "}
+        </div>{" "}
         <div className="main-2">
-          <h1 className="black-title"> More projects </h1>
+          <h1 className="black-title"> More projects </h1>{" "}
           <ul>
             <li>
-              <Link to="/1314projects"> 2013 - 2014 </Link>
-            </li>
+              <Link to="/1314projects"> 2013 - 2014 </Link>{" "}
+            </li>{" "}
             <li>
               <Link to="/1516projects"> 2015 - 2016 </Link>{" "}
-            </li>
+            </li>{" "}
             <li>
               <Link to="/1718projects"> 2017 - 2018 </Link>{" "}
-            </li>
+            </li>{" "}
             <li>
               <Link to="/1920projects"> 2019 - 2020 </Link>{" "}
-            </li>
+            </li>{" "}
             <li>
-              <Link to="/2122projects"> 2021 - 2022 </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+              <Link to="/2122projects"> 2021 - 2022 </Link>{" "}
+            </li>{" "}
+          </ul>{" "}
+        </div>{" "}
+      </div>{" "}
     </div>
   );
 }

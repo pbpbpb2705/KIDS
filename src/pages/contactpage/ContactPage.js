@@ -12,7 +12,7 @@ function ContactPage() {
       >
         Github{" "}
       </Link>{" "}
-      <h1> updating... </h1>{" "}
+      <div className="contact-page-content"> updating... </div>{" "}
     </div>
   );
 }

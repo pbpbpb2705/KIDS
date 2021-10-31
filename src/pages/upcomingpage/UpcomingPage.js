@@ -5,7 +5,7 @@ function UpcomingPage() {
   return (
     <div className="upcoming-page">
       <div className="span" />
-      <h1> Updating </h1>{" "}
+      <h1 className="upcoming-page-content"> Updating </h1>{" "}
     </div>
   );
 }

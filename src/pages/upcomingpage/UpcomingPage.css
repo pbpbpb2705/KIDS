@@ -2,6 +2,10 @@
     min-height: 100vh;
 }
 
+.upcoming-page-content {
+    color: black;
+}
+
 .span {
     height: 5 rem;
 }

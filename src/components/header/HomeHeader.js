@@ -7,10 +7,10 @@ function HomeHeader()
             <img src = 'HImgHeader.png' alt = 'happy children'/>
             <div className = {classes.textbox}>
                 <h1>
-                    Some kind of slogan
+                    KIDS VIETNAM
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare dui ac tortor semper scelerisque. Nullam in lobortis justo. Integer consectetur tincidunt nisl in malesuada. Integer laoreet venenatis lorem a semper. Cras nec vulputate lacus. Sed eget feugiat magna. Donec semper libero non mauris dignissim efficitur. Pellentesque a porta tortor. Donec et rhoncus velit, nec finibus velit.
+                    KIDS VIETNAM (Kids in Difficult Situations in Vietnam) is a non-profit organization with missions to improve the lives of underprivileged children.
                 </p>
             </div>
         </div>

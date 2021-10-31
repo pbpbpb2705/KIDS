@@ -8,11 +8,12 @@ img{
 }
 
 .textbox{
+    font-size: 1.5rem;
     position: absolute;
     align-self: center;
-    width: 40%;
+    width: 30%;
     margin: 4.5rem;
     padding: 0.7rem;
     color: #FFFFFF;
-    background: rgb(168,141,136, 0.3);
+    background: rgb(168,141,136, 0.4);
 }

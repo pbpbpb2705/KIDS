@@ -1,156 +1,100 @@
-header {
-    position: fixed;
-    z-index: 2;
-    top: 0;
+header{
+    position:fixed;z-index:2;
+    top:0;
     height: 4.5rem;
-    width: 100%;
+    width:100%;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
+
     color: #FFFFFF;
     background-color: #0F7F3A;
+    font-size: 1.2rem;
+
 }
 
-header nav {
+.logo{
+    font-weight: bolder;
+    width: fit-content;  
+}
+
+.mainNav{
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    
+    letter-spacing: 0.2px;
 }
 
-button {
-    border: none;
-    padding: 8px 16px;
-    vertical-align: middle;
+header button{
+    border:none;
+    padding:8px 16px;
+    vertical-align:middle;
+
     cursor: pointer;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;  
 }
 
-button:hover {
-    color: #000!important;
-    background-color: #ccc!important;
-}
-
-.button_responsive {
-    border: none;
-    padding: 8px 0px;
-    vertical-align: middle;
-    cursor: pointer;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    font-size: 14px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
+button:hover{
+    color:#000!important;
+    background-color:#ccc!important;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
     padding: 0;
-    background-color: #0F7F3A
-}
-
-.dropdown ul {
-    list-style-type: none;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.dropdown:hover .dropcontent {
-    display: block;
 }
 
 .dropcontent {
     display: none;
+    
     position: absolute;
     width: 100%;
     background-color: #f1f1f1;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 3;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
 }
 
-.dropcontent ul {
+.dropcontent ul{
     display: flex;
     align-content: center;
     flex-direction: column;
     padding: 0px;
+
 }
 
-.dropcontent li {
+.dropcontent li{
     float: none;
     color: black;
     font-size: 14px;
-    margin: 0.3rem;
+    margin: 0.3em;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
-.dropdown_container {
-    display: flex;
-    flex-direction: column;
-    height: 120%;
-    visibility: hidden;
-    width: 0%;
-}
+.dropdown:hover .dropcontent {display: block;}
 
-.dropdown_responsive {
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    background-color: #0F7F3A;
-    width: 100%;
-}
+.searchform{
+    align-items: center;
 
-.dropdown_responsive:hover {
-    visibility: visible;
-}
-
-.dropdown_responsive ul {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
-.icon {
-    margin: auto 0;
-    width: 0px;
-}
-
-.logo {
-    font-weight: bolder;
-    padding-left: 1.5rem;
-}
-
-.mainNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    letter-spacing: 0.2px;
-}
-
-.menu {
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-    height: 4.5rem;
-}
-
-.searchform {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: auto 0;
     justify-content: space-between;
-    padding-right: 0.5rem;
-    height: 2.2rem;
+    padding-right: 0.5em;
+
+    height: 2.2em;
     background-color: #FFFFFF;
+
     border-radius: 10px;
-    width: 210px;
 }
 
 .searchform input[type="search"] {
@@ -159,39 +103,9 @@ button:hover {
     -ms-flex: 1;
     flex: 1;
     border: none;
+
     letter-spacing: .07rem;
     color: #39856D;
-    padding: 0 0 0 1rem;
-}
-
-.space {
-    height: 72px;
-    width: 100vh;
-}
-
-@media screen and (max-width:1080px) {
-    header nav {
-        width: 0%;
-    }
-    header nav ul li {
-        visibility: hidden;
-    }
-    .container {
-        justify-content: center;
-    }
-    .dropdown_container {
-        width: 140px;
-    }
-    .icon {
-        margin: auto auto;
-        width: 64px;
-        visibility: visible;
-    }
-    .icon:hover+.dropdown_responsive {
-        visibility: visible;
-    }
-    .menu {
-        font-size: 10px;
-        justify-content: flex-end;
-    }
+    
+    padding: 0 0 0 1em;
 }

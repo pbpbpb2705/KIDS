@@ -50,54 +50,24 @@ function Navbar() {
           <button> Upcoming </button> 
         </Link>
 
-        <Link to ='/contact'>
-          <button> Contact </button>
-        </Link>
-
       </nav>
 
-      <div className={classes.container}>
-        <form className={classes.searchform}>
-          <input
-            type="search"
-            name="q"
-            id="searchbar"
-            placeholder="Search"
-            required
-          />
-          <img src="/Image/iconmonstr-search-thin-24.png"
-            alt="search icon"
-            onClick={handleSearch}
-          />
-        </form>
-        
-        <div className={classes.dropdown_container}>
-          <img className={classes.icon} src="Icon.svg" alt="list" />
-          <div className={classes.dropdown_responsive}>
-            <ul>
-              <li className={classes.button_responsive}>
-                <Link to="/about"> About </Link>
-              </li>
-
-              <li className={classes.button_responsive}>
-                <Link to="/pastprojects"> Past Projects </Link>
-              </li>
-
-              <li className={classes.button_responsive}>
-                <Link to="/contact"> Contact </Link>
-              </li>
-
-              <li className={classes.button_responsive}>
-                <Link to="/upcoming"> Upcoming </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      
+      <form className={classes.searchform}>
+        <input
+          type="search"
+          name="q"
+          id="searchbar"
+          placeholder="Search"
+          required
+        />
+        <img src="https://cdn.shopify.com/s/files/1/1170/9506/t/74/assets/icon-search.svg?v=3653875556752188748"
+          alt="search icon"
+          onClick={handleSearch}
+        />
+      </form>
       
     </header>
-    
-    
   );
 }
 

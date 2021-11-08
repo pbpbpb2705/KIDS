@@ -13,41 +13,30 @@ function Project1718() {
             <Card
               src="/15.jpg"
               name="Bình Định-8/2018"
-              href="SAPA82014.html"
+              href="binhdinh-8-2018"
+              title="Bình Định-8/2018"
             />
             <Card
               src="/14.jpg"
               name="Nam Trà My-7/2018"
-              href="SAPA82014.html"
+              href="https://www.facebook.com/media/set/?vanity=kidsvietnam14&set=a.2059257954341515"
             />
-            <Card
-              src="/13.jpg"
-              name="SAPA-6/2018"
-              href="SAPA82014.html"
-            />
+            <Card src="/13.jpg" name="SAPA-6/2018" href="sapa-6-2018" />
           </div>
           <div class="container">
-            <Card
-              src="/12.jpg"
-              name="Cần Thơ-8/2017"
-              href="SAPA82014.html"
-            />
+            <Card src="/12.jpg" name="Cần Thơ-8/2017" href="detailpage" />
             <Card
               src="/11.jpg"
-              name="Bình Định-8/2014"
-              href="SAPA82014.html"
+              name="Bình Định-8/2017"
+              href="https://www.facebook.com/media/set/?vanity=kidsvietnam14&set=a.1874968179437161"
             />
-            <Card
-              src="/10.jpg"
-              name="SAPA-6/2017"
-              href="SAPA82014.html"
-            />
+            <Card src="/10.jpg" name="SAPA-6/2017" href="detailpage" />
           </div>
           <div class="container">
             <Card
               src="/9.jpg"
               name="Đại Lộc-1/2017"
-              href="SAPA82014.html"
+              href="https://www.facebook.com/media/set/?vanity=kidsvietnam14&set=a.1799922706941709"
             />
           </div>{" "}
         </div>{" "}

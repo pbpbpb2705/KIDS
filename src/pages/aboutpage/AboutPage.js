@@ -5,6 +5,7 @@ function AboutPage() {
   return (
     <div className="about-page">
       <div className="span"/>
+      <div className="about-page-title"> KIDS VIETNAM </div>
       <div className="about-page-content">
         KIDS VIETNAM(Kids in Difficult Situations in Vietnam) is a non - profit
         organization with missions to improve the lives of underprivileged

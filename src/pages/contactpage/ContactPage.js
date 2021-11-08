@@ -3,6 +3,7 @@ import "./ContactPage.css";
 import { Link } from "react-router-dom";
 
 function ContactPage() {
+  
   return (
     <div className="contact-page">
       <div className="span" />
